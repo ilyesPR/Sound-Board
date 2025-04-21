@@ -6,7 +6,8 @@ I put the C file if anyone wants to tinker or add any voice effects of his own, 
 
 Make sure to disable Caps Lock when using it because C is case sensitive.
 
-For anyone using Cote::Blocks on windows and using MinGW GCC, if codeblocks launches an error when you compile, go to : Settings-->Complier..-->Linker Settings-->Other linker options--> and write -lwinmm.
+To compile using MinGW, you will need to use the `-lwinmm` flag.
+On Code::Blocks, you can find compiler flags in : Settings-->Complier..-->Linker Settings-->Other linker options.
 
 
 Made by ilyesPR
